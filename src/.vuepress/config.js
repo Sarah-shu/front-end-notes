@@ -229,7 +229,7 @@ const nav = [
     items: [
       {
         text: '大前端课程',
-        link: 'https://class.imooc.com/sale/webfullstack'
+        link: 'https://class.imooc.com/sale/webfullstack2021'
       },
       {
         text: '快速了解新版Vue3.0 + Vite开发',
@@ -355,6 +355,11 @@ const sidebar = {
       title: '项目说明',
       collapsable: false,
       children: genSidebarConfig('course/vuepress', siderBarOptions)
+    },
+    {
+      title: 'Pull Request教程',
+      collapsable: false,
+      children: genSidebarConfig('course/pull-request', siderBarOptions)
     }
   ],
   '/about/': [
